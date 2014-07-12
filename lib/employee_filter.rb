@@ -1,4 +1,3 @@
-require "./data/employees"
 require "date"
 
 class EmployeeFilter
@@ -17,5 +16,4 @@ class EmployeeFilter
       "#{hash[:first_name]} #{hash[:last_name]} (#{hash[:title]}) - #{hash[:start_date].month}/#{hash[:start_date].day}/#{hash[:start_date].year}"
     end
   end
-
 end
