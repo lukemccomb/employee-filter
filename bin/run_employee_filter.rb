@@ -1,5 +1,5 @@
-require "../lib/employee_filter"
-require "../data/employees"
+require "./lib/employee_filter"
+require "./data/employees"
 
 before_06 = EmployeeFilter.new(EMPLOYEES).started_before_2006
 
